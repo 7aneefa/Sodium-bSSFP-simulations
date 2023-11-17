@@ -25,9 +25,7 @@ T2s= 5e-3;
 %}
 
 
-%%
-
-%prepare sample 
+%% t sample using spectral density J
 fluid            = struct;     
 fluid.J0         = 10;          % spectral density [Hz]
 fluid.J1         = 11; 
