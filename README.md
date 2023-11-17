@@ -2,10 +2,11 @@
 
 This MATLAB code can be used to model the spin dynamics of spin-3/2 nuclei using irreducible spherical tensor operators (ISTOs).
 
-It reuses simulation of 23Na Magnetic Resonance Fingerprinting (MRF) sequences for  3/2 spin bSSFP simulation. 
+It reuses Fabian Kratzer simulation code " 23Na Magnetic Resonance Fingerprinting (MRF) sequences for  3/2 spin bSSFP ". 
+
 Thanks to:
 Fabian Kratzer,https://github.com/7TGroupDKFZ/ISTO_MRF
-Arthur Magill, on whose work this code is based on: https://github.com/arthurmagill/isto_sim
+Arthur Magill,https://github.com/arthurmagill/isto_sim
 
 
 The model used is described in:
