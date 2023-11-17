@@ -137,7 +137,7 @@ plot(off,abs(signal(1000,:)),'LineWidth', 2); title(strcat('bSSFP for saline, Fl
 %ylim([0, 1.2*max(abs(signal(:)))]);grid on; xlabel('Off-resonance')
 
 figure (2)
-plot(abs(signal(:,100)),'LineWidth', 2); title('Na bSSFP signal evolution offer all TRs')
+plot(abs(signal(:,100)),'LineWidth', 2); title('Na bSSFP signal evolution over all TRs')
 
 
 
