@@ -30,5 +30,5 @@ J. R. C. van der Maarel
 Concepts Magn Resn A 19A(2), 2003, pp97-116
 http://onlinelibrary.wiley.com/doi/10.1002/cmr.a.10087/abstract
 
-% Haneefah Brnawi
+Haneefah Brnawi
 01.09.2023 - hb3218@ic.ac.uk
