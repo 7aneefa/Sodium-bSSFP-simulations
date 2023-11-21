@@ -1,14 +1,10 @@
-% function:     MRF_simulation
-% purpose:      simulate MRF fingerprints (unaccelerated: no GPU or parallel computing in here)
+% function:     Sodium bSSFP_simulation
 %
 % The theory is based on: Hancu I, Van der Maarel J, Boada F. A Model for the Dynamics of Spins 3/2 in Biological Media:Signal Loss during Radiofrequency Excitation in Triple-Quantum-Filtered Sodium MRI. Journal of Magnetic Resonance 2000; 147(2):179-191.
 %
 % ISTO simulations use symmetric and assymetric Tlm: Tlm(s) and Tlm(a) as described by Hancu et al.
 %
-% The simulations are based on the work by Arthur Magill: https://github.com/arthurmagill/isto_sim
-%
-% Fabian Kratzer - German Cancer Research Center (DKFZ)
-% 01.03.2021 - f.kratzer@dkfz.de
+% The simulations are based on the work Fabian Kratzer,https://github.com/7TGroupDKFZ/ISTO_MRF 
 %
 % Haneefa's edit for 3/2 spin bSSFP simulation
 % 01.09.2023 - hb3218@ic.ac.uk
@@ -25,7 +21,7 @@ T2s= 5e-3;
 %}
 
 
-%% t sample using spectral density J
+%% set sample using spectral density J
 fluid            = struct;     
 fluid.J0         = 10;          % spectral density [Hz]
 fluid.J1         = 11; 
