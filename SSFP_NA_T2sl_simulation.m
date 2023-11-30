@@ -97,7 +97,7 @@ for i_num = 1:num_entries
    
     cycle_ind = 1;
     % loop over all cycles
-    for FA_ind =1:length(FA_Pparametersattern)
+    for FA_ind =1:length(FA_Pattern)
         % excitation
         [Tlm, Tlm_history_pulse,t_pulse] = fun_rect_pulse((Tlm),params, FA_Pattern(FA_ind),pulse_phase(FA_ind),pulse_duration,1,0);
      
